@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: kenx_training_database
+    description: testing dbt with ken!
+    database: snowflake_sample_data
+    schema: tpch_sf10
+    tables:
+      - name: orders 
+      - name: customer
