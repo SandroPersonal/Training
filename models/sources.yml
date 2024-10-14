@@ -8,3 +8,6 @@ sources:
     tables:
       - name: orders 
       - name: customer
+      - name: partsupp 
+      - name: part
+      - name: supplier
