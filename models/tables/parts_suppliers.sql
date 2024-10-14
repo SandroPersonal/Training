@@ -1,3 +1,4 @@
+{{ config(materialized='table') }}
 select
 ps.PS_SUPPKEY as part_supplier_key,
 p.P_PARTKEY as part_key,
